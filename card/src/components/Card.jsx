@@ -1,8 +1,10 @@
 import { Bookmark } from 'lucide-react';
 const Card = (props) => {
   return (
-   
-      <div className="card">
+   <div className="parent">
+    
+  
+<div className="card">
         <div className="top">
          <img src={props.img}  />
         <button id="save">
@@ -16,12 +18,14 @@ const Card = (props) => {
        </div>
        
         <div className="bottom">
-         <h1>{props.rate}</h1>
+         <h1>{props.salary}</h1>
         <button className="apply">Apply</button>
         </div>
        
-      </div>
-   
+      
+   </div>
+      
+    </div>
   )
 }
 
