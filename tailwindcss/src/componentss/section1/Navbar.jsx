@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <div className="flex items-center justify-between py-4 px-10">
-      <h4 className='bg-black'>Target Audience</h4>
-      <button>Digital Banking Paltform</button>
+    <div className="flex item-center  justify-between  py-8 px-18">
+      <h4 className='bg-black text-white uppercase px-6 py-2 rounded-lg'>Target Audience</h4>
+      <button className='bg-grey-200 px-6 py-2 uppercase rounded-full teacking-widest text-sm'>Digital Banking Paltform</button>
     </div>
     </>
   )
