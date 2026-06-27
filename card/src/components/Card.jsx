@@ -1,7 +1,7 @@
 import { Bookmark } from 'lucide-react';
 const Card = (props) => {
   return (
-   <div className="parent">
+   
     
   
 <div className="card">
@@ -25,7 +25,7 @@ const Card = (props) => {
       
    </div>
       
-    </div>
+   
   )
 }
 
