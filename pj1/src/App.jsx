@@ -1,11 +1,12 @@
-import Section from "./components/Section"
+import Event from "./event"
+
 
 
 const App = () => {
   return (
     <div >
 
-      <Section />
+      <Event />
     </div>
   )
 }

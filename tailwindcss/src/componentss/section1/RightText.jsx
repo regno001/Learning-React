@@ -19,7 +19,7 @@ const RightText = () => {
   },
 ];
   return reviews.map((review,idx) => (
-    <div key={review.id} className="py-3 px-18 bg-amber-500">
+    <div key={review.id} className="py-3 px-16 bg-red-500">
       <h1>{review.id}</h1>
       <p>{review.desc}</p>
       <p>{review.review}</p>
