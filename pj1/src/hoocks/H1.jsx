@@ -3,6 +3,15 @@ import { useState } from "react";
 const H1 = () => {
 const [num, setA] = useState(10);
 
+// const [usename, setusename] = useState('rahul')
+
+// function worm(){
+//   console.log(usename);
+//   setusename("aman");
+//    console.log(usename);
+  
+  
+// }
 function SoutA(){
   setA(30)
 }
